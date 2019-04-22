@@ -1,0 +1,33 @@
+main: EpicFX\EpicAffection\EpicAffection
+name: EpicAffection
+version: 1.0.0
+api: 
+- 3.0.0
+- 4.0.0
+load: POSTWORLD
+authors: 
+- Winfxk
+- Anders
+EpicFX: 
+   Anders: 摸鱼
+   Winfxk: 帅逼凯
+description: 一个史诗级别的情侣插件
+depend: EconomyAPI
+softdepend: ~
+loadbefore: EconomyAPI
+extensions: ~
+prefix: EpicGroup
+website: https://github.com/xkmp/EpicAffection
+commands:
+   情侣:
+      description: 史诗情侣插件主命令
+      usage: /情侣 help
+      permission: EpicAffection.Command.Main
+      aliases: 
+      - ql
+      - love
+      - epicaffection
+permissions:
+   EpicAffection.Command.Main:
+      description: 情侣插件主命令
+      default: true
